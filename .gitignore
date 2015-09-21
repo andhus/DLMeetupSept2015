@@ -1,0 +1,28 @@
+# build / depency
+cache/
+reports/
+build/
+dist/
+src/
+*.egg-info
+
+## notebooks
+*.ipynb_checkpoints
+*checkpoint.ipynb
+
+## Pycharm
+*.idea
+
+## Other
+*.pyc
+*.pyo
+*.log
+*.swp
+*.swo
+*~
+*.bak
+*.bak[0-9]
+.Trash-*/
+.project
+.ropeproject/
+.pydevproject

@@ -1,0 +1,25 @@
+# The following requirements are from -r https://raw.githubusercontent.com/mila-udem/blocks/stable/requirements.txt
+numpy==1.9.2
+six==1.9.0
+pandas==0.16.1
+progressbar2==2.7.3
+PyYaml==3.11
+toolz==0.7.2
+picklable-itertools==0.1.0
+
+--allow-external theano
+--allow-unverified theano
+git+https://github.com/Theano/Theano.git@c6d2ab3929182cdf7cf12e4b1f191a6ff99d07cc#egg=theano
+
+--allow-external fuel
+--allow-unverified fuel
+git+https://github.com/mila-udem/fuel@stable#egg=fuel
+
+# Blocks and Fuel
+git+git://github.com/mila-udem/fuel.git@stable
+git+git://github.com/mila-udem/blocks.git@stable
+git+git://github.com/mila-udem/blocks-extras.git
+
+# For plotting
+bokeh==0.8.2
+matplotlib==1.4.2
