@@ -23,3 +23,7 @@ git+git://github.com/mila-udem/blocks-extras.git
 # For plotting
 bokeh==0.8.2
 matplotlib==1.4.2
+
+# notebook
+ipython[notebook]
+mpld3
