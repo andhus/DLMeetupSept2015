@@ -1,0 +1,6 @@
+python-h5py
+python-matplotlib
+python-pyside
+python-numpy
+python-pandas
+python-scipy
