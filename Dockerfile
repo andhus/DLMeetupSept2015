@@ -31,4 +31,4 @@ RUN pip install nose
 
 COPY . .
 
-CMD [ "nosetests", "-sv", "/bin/bash"]
+CMD ["/bin/bash"]
