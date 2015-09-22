@@ -10,14 +10,9 @@
 
 from __future__ import division
 
-get_ipython().magic(u'matplotlib inline')
-
 import numpy as np
 import matplotlib as mpl
 from matplotlib import pyplot as plt
-
-import mpld3
-mpld3.enable_notebook()
 
 
 # In[71]:
